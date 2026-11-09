@@ -1,0 +1,22 @@
+{
+ "episode": "DajjalEp1",
+ "file": "/home/user/my-project/what-if-studio/out/dajjal-1/dajjal-1-final.mp4",
+ "seconds": 52.1,
+ "lufs": -14.2,
+ "true_peak_dbtp": -1.46,
+ "segments": 26,
+ "cuts_per_min": 28.8,
+ "elevenlabs_credits": 1135,
+ "cost_lines": [
+  {
+   "step": "voice",
+   "credits": 750,
+   "note": "750 characters"
+  },
+  {
+   "step": "sound",
+   "credits": 385,
+   "note": "10 clips, 38.5 s"
+  }
+ ]
+}

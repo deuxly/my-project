@@ -570,7 +570,7 @@ export const S19: React.FC<ShotProps> = ({ t, len }) => {
   return (
     <g transform={`translate(960 540) scale(${kf(t, [[0, 1.02], [len, 1.1]])}) translate(-960 -540)`}>
       <TVFrame t={t} glitch={g}>{t < flip ? <Garden t={t} /> : <Fire t={t} />}</TVFrame>
-      <Tag x={960} y={1300} t={t - 16} text="HR. BUKHARI 3338" w={560} />
+      <Tag x={960} y={1150} t={t - 16} text="HR. BUKHARI 3338" w={560} />
     </g>
   );
 };
