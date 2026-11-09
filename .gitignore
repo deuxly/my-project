@@ -1,0 +1,8 @@
+node_modules/
+what-if-studio/out/*
+!what-if-studio/out/sun-stops/
+what-if-studio/out/sun-stops/*
+!what-if-studio/out/sun-stops/sun-stops-final.mp4
+!what-if-studio/out/sun-stops/storyboard.jpg
+!what-if-studio/out/sun-stops/report.json
+.env

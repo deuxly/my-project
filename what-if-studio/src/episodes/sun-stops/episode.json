@@ -1,0 +1,432 @@
+{
+ "id": "SunStops",
+ "slug": "sun-stops",
+ "topic": "Gimana kalau matahari tiba-tiba ngga bergerak?",
+ "title": [
+  "BAGAIMANA KALAU",
+  "MATAHARI BERHENTI?"
+ ],
+ "accent": "BERHENTI",
+ "power": {
+  "word": "Berhenti. / Masih terang.",
+  "rule": "the sun freezes in the sky at five in the afternoon and never moves again",
+  "look": "a FROZEN sun chip with a stopped clock readout; the picture holds warm, the shadows stop"
+ },
+ "script": [
+  {
+   "beat": "1 cold open, demo 1 (small and selfish: endless golden hour)",
+   "text": "Jam lima sore. Matahari berhenti. Sore ngga pernah habis."
+  },
+  {
+   "beat": "1 cold open, demo 2 (odd: the kitchen clock says nine, the sun is still in the window)",
+   "text": "Jam sembilan malam. Masih terang."
+  },
+  {
+   "beat": "1 cold open, demo 3 (a little uncanny: midnight, the sun in the bedroom window, wide awake)",
+   "text": "Tengah malam. Masih terang. Ngga bisa tidur."
+  },
+  {
+   "beat": "2 the premise (title card)",
+   "text": "Bagaimana kalau matahari tiba-tiba ngga bergerak?"
+  },
+  {
+   "beat": "4 the turn: the cost, one real fact",
+   "text": "Masalahnya: matahari diam berarti Bumi berhenti berputar. Tapi kamu ngga. Kamu masih melaju lebih dari seribu enam ratus kilometer per jam. Itu nyata."
+  },
+  {
+   "beat": "5-7 folded into a threat",
+   "text": "Pegangan."
+  }
+ ],
+ "science": [
+  {
+   "claim": "If the sun stops moving across the sky, the Earth has stopped spinning.",
+   "working": "The sun's daily path across the sky is caused by the Earth's rotation on its axis (one turn per sidereal day, 23 h 56 min 4 s), not by the sun moving around us. For the sun to stand still in the sky, the rotation must stop.",
+   "source": "Basic astronomy: diurnal motion (e.g. NASA Space Place, 'Why do we have day and night?')"
+  },
+  {
+   "claim": "Anywhere in Indonesia, you are moving at more than 1,600 km/h with the Earth's spin, and you would keep that speed if the Earth stopped.",
+   "working": "Equatorial circumference 2 x pi x 6,378.137 km = 40,075 km; one rotation takes 23.934 h, so the equator moves 40,075 / 23.934 = 1,674 km/h (465 m/s). At latitude L the speed is 1,674 x cos(L). Indonesia spans about 6 N (Sabang, 5.9 N) to 11 S (Pulau Ndana, 11.0 S): the slowest point is 1,674 x cos(11 deg) = 1,643 km/h; Jakarta (6.2 S) is 1,664 km/h. So 'more than 1,600 km/h' holds everywhere in Indonesia. By inertia (Newton's first law) anything not fixed to the bedrock, the air included, keeps moving east at that speed if the ground stops.",
+   "source": "WGS 84 equatorial radius 6,378.137 km; IERS sidereal day 86,164.1 s; Newton's first law; geography of Indonesia (Sabang 5.9 N, Pulau Ndana 11.0 S)"
+  }
+ ],
+ "cast": [
+  "pipHood",
+  "mo"
+ ],
+ "gaps": {
+  "word": 0.1,
+  "comma": 0.18,
+  "sentence": 0.28,
+  "question": 0.45
+ },
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "set": "rooftop",
+   "key": 20,
+   "note": "Pip and Mo on the roof at five, the sun low over the city"
+  },
+  {
+   "id": "S2",
+   "size": "medium, low angle",
+   "set": "rooftop",
+   "key": 24,
+   "note": "Pip looks up shading his eyes; the sun stops dead, the birds freeze, a STOPPED chip"
+  },
+  {
+   "id": "S3",
+   "size": "medium two-shot",
+   "set": "rooftop",
+   "key": 24,
+   "note": "Pip and Mo lean on the parapet in the gold, Mo cheers"
+  },
+  {
+   "id": "S4",
+   "size": "wide",
+   "set": "kitchen",
+   "key": 20,
+   "note": "the kitchen: the clock says nine, the sun still in the window; Pip at the island, puzzled"
+  },
+  {
+   "id": "S5",
+   "size": "macro insert",
+   "set": "kitchen (wall)",
+   "key": 16,
+   "note": "the clock at nine in a bar of sunlight"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "set": "bedroom (sun in the window)",
+   "key": 20,
+   "note": "midnight: Pip sits up in bed, sunlight pouring through the window"
+  },
+  {
+   "id": "S7",
+   "size": "top-down insert",
+   "set": "bedroom (nightstand)",
+   "key": 14,
+   "note": "the bedside clock reads 00:00, a hard bar of sunlight across it"
+  },
+  {
+   "id": "S8",
+   "size": "close-up",
+   "set": "bedroom",
+   "key": 16,
+   "note": "Pip in bed, tired eyes, squinting into the sun"
+  },
+  {
+   "id": "S9",
+   "size": "title, wide",
+   "set": "rooftop",
+   "key": 52,
+   "note": "the premise over the frozen sun"
+  },
+  {
+   "id": "S10",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 70,
+   "note": "the Earth from above, spinning with the sun to the side; the spin brakes to a stop: 0 PUTARAN"
+  },
+  {
+   "id": "S11",
+   "size": "close-up",
+   "set": "rooftop",
+   "key": 16,
+   "note": "Pip, realising: but you don't stop"
+  },
+  {
+   "id": "S12",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 80,
+   "note": "Indonesia on the globe, an arrow east, 1.600+ km/jam counting up"
+  },
+  {
+   "id": "S13",
+   "size": "extreme close-up",
+   "set": "rooftop",
+   "key": 14,
+   "note": "Pip, scared; the light turns red"
+  },
+  {
+   "id": "S14",
+   "size": "wide, low angle",
+   "set": "rooftop",
+   "key": 24,
+   "note": "red sky; Pip grabs the parapet, wind and debris streak east, a shake"
+  }
+ ],
+ "edit": [
+  {
+   "shot": "S1",
+   "at": "Jam"
+  },
+  {
+   "shot": "S2",
+   "at": "Matahari",
+   "look": "freeze"
+  },
+  {
+   "shot": "S3",
+   "at": "Sore"
+  },
+  {
+   "shot": "S4",
+   "at": "Jam",
+   "look": "freeze"
+  },
+  {
+   "shot": "S5",
+   "at": "Masih",
+   "look": "freeze"
+  },
+  {
+   "shot": "S6",
+   "at": "Tengah",
+   "look": "freeze"
+  },
+  {
+   "shot": "S7",
+   "at": "Masih",
+   "look": "freeze"
+  },
+  {
+   "shot": "S8",
+   "at": "Ngga"
+  },
+  {
+   "shot": "S9",
+   "at": "Bagaimana"
+  },
+  {
+   "shot": "S10",
+   "at": "Masalahnya"
+  },
+  {
+   "shot": "S11",
+   "at": "Tapi"
+  },
+  {
+   "shot": "S12",
+   "at": "Kamu#2"
+  },
+  {
+   "shot": "S13",
+   "at": "Itu"
+  },
+  {
+   "shot": "S14",
+   "at": "Pegangan"
+  }
+ ],
+ "tail": 1.9,
+ "fx": [
+  {
+   "at": "S2+26",
+   "kind": "flash",
+   "color": "#FFF3DC",
+   "o": 0.4
+  },
+  {
+   "at": "S9",
+   "kind": "flash",
+   "color": "#FFF3DC"
+  },
+  {
+   "at": "S10+70",
+   "kind": "shake",
+   "len": 8,
+   "amp": 6
+  },
+  {
+   "at": "S14",
+   "kind": "flash",
+   "color": "#FF3344"
+  },
+  {
+   "at": "S14+20",
+   "kind": "shake",
+   "len": 30,
+   "amp": 14
+  }
+ ],
+ "sound": {
+  "clips": {
+   "room_tone": [
+    "quiet indoor room tone in the evening, faint distant city hum, no voices",
+    12.5
+   ],
+   "roof_wind": [
+    "a gentle evening breeze on a city rooftop, distant traffic",
+    7.0
+   ],
+   "music": [
+    "playful quirky cartoon background music, pizzicato strings, glockenspiel and soft bass, light and curious, 110 bpm, no vocals",
+    17.0
+   ],
+   "title_boom": [
+    "a cinematic whoosh rising into a deep boom impact",
+    1.6
+   ],
+   "drone_hit": [
+    "a dark ominous low drone hit, deep cinematic horror sting",
+    2.6
+   ],
+   "gulp": [
+    "a nervous cartoon gulp, short",
+    0.5
+   ],
+   "counter_tick": [
+    "a fast mechanical counter ticking up rapidly, digits rolling over, getting faster",
+    1.6
+   ],
+   "switch_off": [
+    "a heavy electrical breaker switching off with a dull clunk",
+    0.5
+   ],
+   "sparkle": [
+    "a short bright magical sparkle twinkle, cartoon",
+    0.8
+   ],
+   "freeze": [
+    "a deep cinematic time-freeze sound, a tape stop pitching down into a sudden hush with a soft shimmering ring",
+    1.4
+   ],
+   "clock_tick": [
+    "a single crisp tick of a wall clock second hand, close up, short",
+    0.5
+   ],
+   "spin_down": [
+    "a huge heavy spinning disc slowing down to a stop, a deep mechanical whir winding down, rumble",
+    2.6
+   ],
+   "whoosh": [
+    "a fast clean whoosh passing from left to right, short",
+    0.8
+   ],
+   "wind_gust": [
+    "a violent roaring wind gust hitting suddenly, hurricane force, debris rattling and flapping",
+    2.2
+   ]
+  },
+  "events": [
+   [
+    "S1",
+    "roof_wind",
+    0.16,
+    "onset",
+    "S4"
+   ],
+   [
+    "S2+25",
+    "freeze",
+    0.5,
+    "peak"
+   ],
+   [
+    "S3+12",
+    "sparkle",
+    0.2
+   ],
+   [
+    "S4",
+    "room_tone",
+    0.12,
+    "onset",
+    "S9"
+   ],
+   [
+    "S8+28",
+    "gulp",
+    0.3
+   ],
+   [
+    "S9",
+    "title_boom",
+    0.35,
+    "peak"
+   ],
+   [
+    "S9",
+    "roof_wind",
+    0.14,
+    "onset",
+    "S10"
+   ],
+   [
+    "S10+18",
+    "spin_down",
+    0.1,
+    "onset",
+    "S11"
+   ],
+   [
+    "S10+80",
+    "switch_off",
+    0.35
+   ],
+   [
+    "S11",
+    "drone_hit",
+    0.12
+   ],
+   [
+    "S12+14",
+    "whoosh",
+    0.25
+   ],
+   [
+    "S12+30",
+    "counter_tick",
+    0.08,
+    "onset",
+    "S12+66"
+   ],
+   [
+    "S12+64",
+    "whoosh",
+    0.15,
+    "peak"
+   ],
+   [
+    "S14",
+    "drone_hit",
+    0.08
+   ],
+   [
+    "S14+20",
+    "wind_gust",
+    0.5
+   ]
+  ],
+  "repeats": [
+   {
+    "at": "S5+6",
+    "clip": "clock_tick",
+    "n": 3,
+    "every": 10,
+    "gain": [
+     0.35,
+     0.4
+    ],
+    "pitch": [
+     1.0,
+     1.0
+    ],
+    "note": "the second hand ticks at S5 t 6, 16, 26"
+   }
+  ],
+  "music": {
+   "clip": "music",
+   "until": "S10"
+  },
+  "levels": {
+   "sfx_lu": -3,
+   "music_lu": -9.5
+  }
+ }
+}

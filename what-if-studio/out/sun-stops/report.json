@@ -1,0 +1,22 @@
+{
+ "episode": "SunStops",
+ "file": "/home/user/my-project/what-if-studio/out/sun-stops/sun-stops-final.mp4",
+ "seconds": 23.4,
+ "lufs": -14.1,
+ "true_peak_dbtp": -1.49,
+ "segments": 14,
+ "cuts_per_min": 33.5,
+ "elevenlabs_credits": 347,
+ "cost_lines": [
+  {
+   "step": "voice",
+   "credits": 347,
+   "note": "347 characters"
+  },
+  {
+   "step": "sound",
+   "credits": 0,
+   "note": "4 clips, 6.1 s; not all in the history or the counter yet, check the usage page"
+  }
+ ]
+}
