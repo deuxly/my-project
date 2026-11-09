@@ -6,3 +6,8 @@ what-if-studio/out/sun-stops/*
 !what-if-studio/out/sun-stops/storyboard.jpg
 !what-if-studio/out/sun-stops/report.json
 .env
+!what-if-studio/out/dajjal-1/
+what-if-studio/out/dajjal-1/*
+!what-if-studio/out/dajjal-1/dajjal-1-final.mp4
+!what-if-studio/out/dajjal-1/storyboard.jpg
+!what-if-studio/out/dajjal-1/report.json

@@ -12,7 +12,7 @@ const Label: React.FC<{ x: number; y: number; text: string }> = ({ x, y, text })
   </text>
 );
 const P = (o: Partial<Pose>): Pose => ({ ...basePose, ...o });
-const NAMES: Record<CastName, string> = { pip: 'PIP A', pipHood: 'PIP B (HERO)', pipInk: 'PIP C', mo: 'MO, FRIEND', sis: 'SISTER', mom: 'MUM', suit: 'THE SUIT' };
+const NAMES: Record<CastName, string> = { pip: 'PIP A', pipHood: 'PIP B (HERO)', pipInk: 'PIP C', mo: 'MO, FRIEND', sis: 'SISTER', mom: 'MUM', suit: 'THE SUIT', mc: 'MC (HERO)', momHijab: 'IBU' };
 
 export const CastSheet: React.FC = () => {
   const cast = Object.keys(LOOKS) as CastName[];
@@ -27,7 +27,7 @@ export const CastSheet: React.FC = () => {
   ];
   return (
     <AbsoluteFill style={{ backgroundColor: '#14101C' }}>
-      <svg width={1920} height={1080} viewBox="0 0 1920 1080">
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080">
         <KitDefs />
         <SetDefs />
         <g filter="url(#blur10)">
@@ -35,7 +35,7 @@ export const CastSheet: React.FC = () => {
         </g>
         <rect width={1920} height={1080} fill="#0B0816" opacity={0.35} />
         {cast.map((c, i) => {
-          const x = 150 + i * 270;
+          const x = 110 + i * 212;
           const small = c === 'sis' ? 0.68 : 0.82;
           return (
             <g key={c}>

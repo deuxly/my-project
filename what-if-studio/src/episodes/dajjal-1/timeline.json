@@ -1,0 +1,502 @@
+{
+ "slug": "dajjal-1",
+ "title": "BAGAIMANA KALAU DAJJAL SEGERA MUNCUL?",
+ "fps": 30,
+ "total": 1560,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 36,
+   "t0": 0,
+   "t1": 36,
+   "line": "Jam dua pagi."
+  },
+  {
+   "shot": "S2",
+   "a": 36,
+   "b": 78,
+   "t0": 0,
+   "t1": 42,
+   "line": "Ponselmu bergetar."
+  },
+  {
+   "shot": "S3",
+   "a": 78,
+   "b": 160,
+   "t0": 0,
+   "t1": 82,
+   "line": "Grup keluarga: Dajjal muncul minggu ini.",
+   "look": "hoax"
+  },
+  {
+   "shot": "S4",
+   "a": 160,
+   "b": 188,
+   "t0": 0,
+   "t1": 28,
+   "line": "Sebarkan!",
+   "look": "hoax"
+  },
+  {
+   "shot": "S5",
+   "a": 188,
+   "b": 241,
+   "t0": 0,
+   "t1": 53,
+   "line": "Satu juta kali dibagikan.",
+   "look": "hoax"
+  },
+  {
+   "shot": "S6",
+   "a": 241,
+   "b": 302,
+   "t0": 0,
+   "t1": 61,
+   "line": "Pagi harinya, satu kota panik.",
+   "look": "hoax"
+  },
+  {
+   "shot": "S7",
+   "a": 302,
+   "b": 394,
+   "t0": 0,
+   "t1": 92,
+   "line": "Bagaimana kalau kamu dengar Dajjal akan segera muncul?"
+  },
+  {
+   "shot": "S8",
+   "a": 394,
+   "b": 443,
+   "t0": 0,
+   "t1": 49,
+   "line": "Kamu ngga ikut panik. Kamu"
+  },
+  {
+   "shot": "S9",
+   "a": 443,
+   "b": 534,
+   "t0": 0,
+   "t1": 91,
+   "line": "cek sumbernya. Hadis sahih riwayat Muslim:"
+  },
+  {
+   "shot": "S10",
+   "a": 534,
+   "b": 602,
+   "t0": 0,
+   "t1": 68,
+   "line": "Dajjal tinggal empat puluh hari."
+  },
+  {
+   "shot": "S11",
+   "a": 602,
+   "b": 654,
+   "t0": 0,
+   "t1": 52,
+   "line": "Satu hari seperti setahun."
+  },
+  {
+   "shot": "S12",
+   "a": 654,
+   "b": 703,
+   "t0": 0,
+   "t1": 49,
+   "line": "Satu seperti sebulan."
+  },
+  {
+   "shot": "S13",
+   "a": 703,
+   "b": 753,
+   "t0": 0,
+   "t1": 50,
+   "line": "Satu seperti seminggu."
+  },
+  {
+   "shot": "S14",
+   "a": 753,
+   "b": 781,
+   "t0": 0,
+   "t1": 28,
+   "line": "Itu nyata."
+  },
+  {
+   "shot": "S15",
+   "a": 781,
+   "b": 820,
+   "t0": 0,
+   "t1": 39,
+   "line": "Tapi tanggalnya?"
+  },
+  {
+   "shot": "S16",
+   "a": 820,
+   "b": 884,
+   "t0": 0,
+   "t1": 64,
+   "line": "Ngga ada satu dalil pun yang menyebutnya."
+  },
+  {
+   "shot": "S17",
+   "a": 884,
+   "b": 971,
+   "t0": 0,
+   "t1": 87,
+   "line": "Malam itu, di TV, seorang pria tersenyum."
+  },
+  {
+   "shot": "S18",
+   "a": 971,
+   "b": 1037,
+   "t0": 0,
+   "t1": 66,
+   "line": "Ikut saya. Saya bawa surga."
+  },
+  {
+   "shot": "S19",
+   "a": 1037,
+   "b": 1142,
+   "t0": 0,
+   "t1": 105,
+   "line": "Padahal menurut hadis, surga yang dia bawa justru neraka."
+  },
+  {
+   "shot": "S20",
+   "a": 1142,
+   "b": 1191,
+   "t0": 0,
+   "t1": 49,
+   "line": "Adikmu menarik bajumu."
+  },
+  {
+   "shot": "S21",
+   "a": 1191,
+   "b": 1232,
+   "t0": 0,
+   "t1": 41,
+   "line": "Kak, aku takut."
+  },
+  {
+   "shot": "S22",
+   "a": 1232,
+   "b": 1328,
+   "t0": 0,
+   "t1": 96,
+   "line": "Kamu ajari dia sepuluh ayat pertama surah Al- Kahfi."
+  },
+  {
+   "shot": "S23",
+   "a": 1328,
+   "b": 1372,
+   "t0": 0,
+   "t1": 44,
+   "line": "Pelindung dari Dajjal."
+  },
+  {
+   "shot": "S24",
+   "a": 1372,
+   "b": 1438,
+   "t0": 0,
+   "t1": 66,
+   "line": "Besok paginya, matahari terbit."
+  },
+  {
+   "shot": "S25",
+   "a": 1438,
+   "b": 1487,
+   "t0": 0,
+   "t1": 49,
+   "line": "Dan ngga terbenam lagi.",
+   "look": "freeze"
+  },
+  {
+   "shot": "S26",
+   "a": 1487,
+   "b": 1560,
+   "t0": 0,
+   "t1": 73,
+   "line": "Bersambung."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 30,
+   "len": 36,
+   "first": 0,
+   "line": "Jam dua pagi.",
+   "note": "02:00: MC asleep in bed, the room dark"
+  },
+  {
+   "id": "S2",
+   "size": "insert, high",
+   "key": 20,
+   "len": 42,
+   "first": 36,
+   "line": "Ponselmu bergetar.",
+   "note": "the phone on the nightstand lights up and buzzes"
+  },
+  {
+   "id": "S3",
+   "size": "macro insert",
+   "key": 40,
+   "len": 82,
+   "first": 78,
+   "line": "Grup keluarga: Dajjal muncul minggu ini.",
+   "note": "the family group chat: a forwarded message, DAJJAL MUNCUL MINGGU INI. SEBARKAN!!"
+  },
+  {
+   "id": "S4",
+   "size": "close-up",
+   "key": 14,
+   "len": 28,
+   "first": 160,
+   "line": "Sebarkan!",
+   "note": "MC sits up, face lit blue by the phone, eyes wide"
+  },
+  {
+   "id": "S5",
+   "size": "schematic",
+   "key": 44,
+   "len": 53,
+   "first": 188,
+   "line": "Satu juta kali dibagikan.",
+   "note": "phones lighting up across a grid; a share counter runs to 1.000.000"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "key": 30,
+   "len": 61,
+   "first": 241,
+   "line": "Pagi harinya, satu kota panik.",
+   "note": "the city in the morning: sirens, smoke, every window lit by a phone"
+  },
+  {
+   "id": "S7",
+   "size": "title, wide",
+   "key": 52,
+   "len": 92,
+   "first": 302,
+   "line": "Bagaimana kalau kamu dengar Dajjal akan segera muncul?",
+   "note": "the premise over the city; MC alone on the roof"
+  },
+  {
+   "id": "S8",
+   "size": "medium",
+   "key": 20,
+   "len": 49,
+   "first": 394,
+   "line": "Kamu ngga ikut panik. Kamu",
+   "note": "MC at his desk breathes out, calm: no panic"
+  },
+  {
+   "id": "S9",
+   "size": "top-down insert",
+   "key": 40,
+   "len": 91,
+   "first": 443,
+   "line": "cek sumbernya. Hadis sahih riwayat Muslim:",
+   "note": "an open book of hadith, a finger running down the page; tag HR. MUSLIM 2937"
+  },
+  {
+   "id": "S10",
+   "size": "schematic",
+   "key": 50,
+   "len": 68,
+   "first": 534,
+   "line": "Dajjal tinggal empat puluh hari.",
+   "note": "forty day cells pop on: 40 HARI"
+  },
+  {
+   "id": "S11",
+   "size": "schematic",
+   "key": 30,
+   "len": 52,
+   "first": 602,
+   "line": "Satu hari seperti setahun.",
+   "note": "bar 1 stretches: HARI 1 = 1 TAHUN"
+  },
+  {
+   "id": "S12",
+   "size": "schematic",
+   "key": 30,
+   "len": 49,
+   "first": 654,
+   "line": "Satu seperti sebulan.",
+   "note": "bar 2: HARI 2 = 1 BULAN"
+  },
+  {
+   "id": "S13",
+   "size": "schematic",
+   "key": 30,
+   "len": 50,
+   "first": 703,
+   "line": "Satu seperti seminggu.",
+   "note": "bar 3: HARI 3 = 1 MINGGU"
+  },
+  {
+   "id": "S14",
+   "size": "extreme close-up",
+   "key": 14,
+   "len": 28,
+   "first": 753,
+   "line": "Itu nyata.",
+   "note": "MC, serious: that's real"
+  },
+  {
+   "id": "S15",
+   "size": "insert",
+   "key": 24,
+   "len": 39,
+   "first": 781,
+   "line": "Tapi tanggalnya?",
+   "note": "a calendar, the forwarded date circled with a question mark"
+  },
+  {
+   "id": "S16",
+   "size": "insert, closer",
+   "key": 34,
+   "len": 64,
+   "first": 820,
+   "line": "Ngga ada satu dalil pun yang menyebutnya.",
+   "note": "a red cross stamps the date: TIDAK ADA DALIL"
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "key": 40,
+   "len": 87,
+   "first": 884,
+   "line": "Malam itu, di TV, seorang pria tersenyum.",
+   "note": "the family on the sofa, TV light flickering on their faces"
+  },
+  {
+   "id": "S18",
+   "size": "insert",
+   "key": 30,
+   "len": 66,
+   "first": 971,
+   "line": "Ikut saya. Saya bawa surga.",
+   "note": "on the TV: a smiling man in a suit, half his face in shadow, arms open"
+  },
+  {
+   "id": "S19",
+   "size": "insert",
+   "key": 100,
+   "len": 105,
+   "first": 1037,
+   "line": "Padahal menurut hadis, surga yang dia bawa justru neraka.",
+   "note": "the paradise on screen (a green garden) glitches into fire"
+  },
+  {
+   "id": "S20",
+   "size": "medium",
+   "key": 30,
+   "len": 49,
+   "first": 1142,
+   "line": "Adikmu menarik bajumu.",
+   "note": "his little sister tugs at his hoodie"
+  },
+  {
+   "id": "S21",
+   "size": "close-up",
+   "key": 20,
+   "len": 41,
+   "first": 1191,
+   "line": "Kak, aku takut.",
+   "note": "sis, scared"
+  },
+  {
+   "id": "S22",
+   "size": "two-shot",
+   "key": 50,
+   "len": 96,
+   "first": 1232,
+   "line": "Kamu ajari dia sepuluh ayat pertama surah Al- Kahfi.",
+   "note": "MC beside her, a closed mushaf on his lap, teaching her"
+  },
+  {
+   "id": "S23",
+   "size": "macro insert",
+   "key": 24,
+   "len": 44,
+   "first": 1328,
+   "line": "Pelindung dari Dajjal.",
+   "note": "the mushaf, green and gold, soft light; tag AL-KAHFI 1-10"
+  },
+  {
+   "id": "S24",
+   "size": "wide",
+   "key": 40,
+   "len": 66,
+   "first": 1372,
+   "line": "Besok paginya, matahari terbit.",
+   "note": "next morning the sun rises over the city"
+  },
+  {
+   "id": "S25",
+   "size": "wide, time-lapse",
+   "key": 40,
+   "len": 49,
+   "first": 1438,
+   "line": "Dan ngga terbenam lagi.",
+   "note": "a clock spins through the day; the sun doesn't move"
+  },
+  {
+   "id": "S26",
+   "size": "extreme close-up",
+   "key": 30,
+   "len": 73,
+   "first": 1487,
+   "line": "Bersambung.",
+   "note": "MC stares at the sun; BERSAMBUNG"
+  }
+ ],
+ "fx": [
+  {
+   "kind": "flash",
+   "color": "#CFE6FF",
+   "o": 0.4,
+   "f": 160
+  },
+  {
+   "kind": "flash",
+   "color": "#FFF3DC",
+   "f": 302
+  },
+  {
+   "kind": "shake",
+   "len": 8,
+   "amp": 8,
+   "f": 842
+  },
+  {
+   "kind": "flash",
+   "color": "#FF5A3A",
+   "o": 0.6,
+   "f": 1129
+  },
+  {
+   "kind": "shake",
+   "len": 12,
+   "amp": 10,
+   "f": 1129
+  },
+  {
+   "kind": "flash",
+   "color": "#FFE7B3",
+   "o": 0.5,
+   "f": 1487
+  }
+ ],
+ "audio": {
+  "voiceVol": 0.8,
+  "sfxVol": 0.3222,
+  "musicVol": 0.0996,
+  "voice": "dajjal-1/voice.wav",
+  "sfx": "dajjal-1/sfx.wav",
+  "music": "dajjal-1/music.wav"
+ }
+}

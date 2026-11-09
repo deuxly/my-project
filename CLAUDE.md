@@ -7,3 +7,10 @@
   (jalankan dari folder studio). Font dimuat lokal dari `public/fonts/` (render tanpa Google Fonts).
 - Remotion memakai Chromium bawaan lingkungan: tautkan `/opt/pw-browsers/chromium_headless_shell-*/chrome-headless-shell-linux64`
   ke `node_modules/.remotion/chrome-headless-shell/linux64/` dengan file `VERSION` yang sesuai, jika belum ada.
+- **MC di setiap cerita adalah karakter milik user**: `LOOKS.mc` di `what-if-studio/src/engine/rig.tsx` (rambut hitam
+  berantakan, kulit peach, hoodie hitam bertali putih, celana hitam, sepatu hitam bersol putih, kaus kaki putih).
+  Dia selalu jadi "kamu" di naskah. Pemeran pendukung: `sis` (adik), `momHijab` (ibu), `suit` (pria berjas).
+- **Serial**: setiap episode minimal 40-50 detik, berakhir dengan "Bersambung". Seri "Kabar Dajjal" ada di
+  `src/episodes/dajjal-1/` (episode berikutnya: `dajjal-2`, dst.). Aturan hormat: nabi tidak pernah digambar, Dajjal tidak
+  pernah diperlihatkan langsung, mushaf digambar tertutup tanpa tulisan Arab buatan, setiap hadis disebut nomornya dan
+  dicek di field `science`.

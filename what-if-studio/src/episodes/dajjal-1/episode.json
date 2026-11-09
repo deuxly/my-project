@@ -1,0 +1,661 @@
+{
+ "id": "DajjalEp1",
+ "slug": "dajjal-1",
+ "series": {
+  "name": "Kabar Dajjal",
+  "episode": 1
+ },
+ "topic": "Kamu mendengar kabar Dajjal akan segera muncul",
+ "title": [
+  "BAGAIMANA KALAU",
+  "DAJJAL SEGERA MUNCUL?"
+ ],
+ "accent": "DAJJAL",
+ "power": {
+  "word": "Sebarkan! / Cek sumbernya.",
+  "rule": "a forwarded rumour says the Dajjal appears this week; the hero checks the real sources instead of panicking",
+  "look": "a FORWARDED chip and a share counter while the hoax spreads; a calm warm grade once he checks the hadith"
+ },
+ "script": [
+  {
+   "beat": "1 cold open: the message",
+   "text": "Jam dua pagi. Ponselmu bergetar. Grup keluarga: Dajjal muncul minggu ini. Sebarkan!"
+  },
+  {
+   "beat": "1 cold open: it spreads",
+   "text": "Satu juta kali dibagikan. Pagi harinya, satu kota panik."
+  },
+  {
+   "beat": "2 the premise (title card)",
+   "text": "Bagaimana kalau kamu dengar Dajjal akan segera muncul?"
+  },
+  {
+   "beat": "3 the hero's move",
+   "text": "Kamu ngga ikut panik. Kamu cek sumbernya."
+  },
+  {
+   "beat": "4 the real fact, sourced",
+   "text": "Hadis sahih riwayat Muslim: Dajjal tinggal empat puluh hari. Satu hari seperti setahun. Satu seperti sebulan. Satu seperti seminggu. Itu nyata."
+  },
+  {
+   "beat": "4 the hoax exposed",
+   "text": "Tapi tanggalnya? Ngga ada satu dalil pun yang menyebutnya."
+  },
+  {
+   "beat": "5 someone powerful appears",
+   "text": "Malam itu, di TV, seorang pria tersenyum. Ikut saya. Saya bawa surga. Padahal menurut hadis, surga yang dia bawa justru neraka."
+  },
+  {
+   "beat": "6 family at stake",
+   "text": "Adikmu menarik bajumu. Kak, aku takut. Kamu ajari dia sepuluh ayat pertama surah Al-Kahfi. Pelindung dari Dajjal."
+  },
+  {
+   "beat": "7 cliffhanger",
+   "text": "Besok paginya, matahari terbit. Dan ngga terbenam lagi. Bersambung."
+  }
+ ],
+ "science": [
+  {
+   "claim": "In a sahih hadith narrated by Muslim, the Dajjal stays on earth forty days: one day like a year, one like a month, one like a week, and the rest like ordinary days.",
+   "working": "Narrated by an-Nawwas ibn Sam'an. The companions asked whether one day's prayers would suffice for the day like a year; he said no, estimate its time. Parallel report in Abu Dawud 4321 (graded sahih by al-Albani).",
+   "source": "Sahih Muslim 2937 (sunnah.com/muslim:2937)"
+  },
+  {
+   "claim": "Whoever memorises the first ten verses of Surah al-Kahf is protected from the Dajjal.",
+   "working": "Narrated by Abu ad-Darda'. Another narration in Muslim says the last ten verses; scholars advise learning both. The script says the first ten, which is the wording of 809a.",
+   "source": "Sahih Muslim 809 (sunnah.com/muslim:809a)"
+  },
+  {
+   "claim": "What the Dajjal presents as paradise is in fact hell (fire).",
+   "working": "The Dajjal will come with something like paradise and hell; what he calls paradise will be hell. Narrated by Abu Hurairah (Bukhari); Hudhayfah's narration in Muslim: what people see as water is fire, what they see as fire is cool sweet water.",
+   "source": "Sahih al-Bukhari 3338; Sahih Muslim 2934"
+  },
+  {
+   "claim": "No text names the date of the Dajjal's appearance.",
+   "working": "The hadith describe signs and events around the Dajjal but give no date; any message naming a day or week is not from the Quran or authentic hadith. The episode treats the forwarded date as a hoax.",
+   "source": "Absence of any dated report in the canonical collections (Bukhari, Muslim, the Sunan); general scholarly position that the timing of the Hour's major signs is unknown"
+  }
+ ],
+ "notes": {
+  "respect": "Prophets are never depicted. The Dajjal is never shown directly: only a smiling man on a TV, his face half in shadow. The mushaf is drawn closed or as abstract ornament, never with invented Arabic text.",
+  "cast": "MC (the user's main character, every episode), his little sister (sis), his mum (momHijab)"
+ },
+ "cast": [
+  "mc",
+  "sis",
+  "momHijab",
+  "suit"
+ ],
+ "gaps": {
+  "word": 0.1,
+  "comma": 0.2,
+  "sentence": 0.3,
+  "question": 0.45
+ },
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "set": "bedroom (night)",
+   "key": 30,
+   "note": "02:00: MC asleep in bed, the room dark"
+  },
+  {
+   "id": "S2",
+   "size": "insert, high",
+   "set": "bedroom (nightstand)",
+   "key": 20,
+   "note": "the phone on the nightstand lights up and buzzes"
+  },
+  {
+   "id": "S3",
+   "size": "macro insert",
+   "set": "phone",
+   "key": 40,
+   "note": "the family group chat: a forwarded message, DAJJAL MUNCUL MINGGU INI. SEBARKAN!!"
+  },
+  {
+   "id": "S4",
+   "size": "close-up",
+   "set": "bedroom",
+   "key": 14,
+   "note": "MC sits up, face lit blue by the phone, eyes wide"
+  },
+  {
+   "id": "S5",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 44,
+   "note": "phones lighting up across a grid; a share counter runs to 1.000.000"
+  },
+  {
+   "id": "S6",
+   "size": "wide",
+   "set": "rooftop (morning)",
+   "key": 30,
+   "note": "the city in the morning: sirens, smoke, every window lit by a phone"
+  },
+  {
+   "id": "S7",
+   "size": "title, wide",
+   "set": "rooftop",
+   "key": 52,
+   "note": "the premise over the city; MC alone on the roof"
+  },
+  {
+   "id": "S8",
+   "size": "medium",
+   "set": "study",
+   "key": 20,
+   "note": "MC at his desk breathes out, calm: no panic"
+  },
+  {
+   "id": "S9",
+   "size": "top-down insert",
+   "set": "study (desk top)",
+   "key": 40,
+   "note": "an open book of hadith, a finger running down the page; tag HR. MUSLIM 2937"
+  },
+  {
+   "id": "S10",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 50,
+   "note": "forty day cells pop on: 40 HARI"
+  },
+  {
+   "id": "S11",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 30,
+   "note": "bar 1 stretches: HARI 1 = 1 TAHUN"
+  },
+  {
+   "id": "S12",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 30,
+   "note": "bar 2: HARI 2 = 1 BULAN"
+  },
+  {
+   "id": "S13",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 30,
+   "note": "bar 3: HARI 3 = 1 MINGGU"
+  },
+  {
+   "id": "S14",
+   "size": "extreme close-up",
+   "set": "study",
+   "key": 14,
+   "note": "MC, serious: that's real"
+  },
+  {
+   "id": "S15",
+   "size": "insert",
+   "set": "phone (calendar)",
+   "key": 24,
+   "note": "a calendar, the forwarded date circled with a question mark"
+  },
+  {
+   "id": "S16",
+   "size": "insert, closer",
+   "set": "phone (calendar)",
+   "key": 34,
+   "note": "a red cross stamps the date: TIDAK ADA DALIL"
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "set": "living room (night)",
+   "key": 40,
+   "note": "the family on the sofa, TV light flickering on their faces"
+  },
+  {
+   "id": "S18",
+   "size": "insert",
+   "set": "TV",
+   "key": 30,
+   "note": "on the TV: a smiling man in a suit, half his face in shadow, arms open"
+  },
+  {
+   "id": "S19",
+   "size": "insert",
+   "set": "TV",
+   "key": 100,
+   "note": "the paradise on screen (a green garden) glitches into fire"
+  },
+  {
+   "id": "S20",
+   "size": "medium",
+   "set": "living room",
+   "key": 30,
+   "note": "his little sister tugs at his hoodie"
+  },
+  {
+   "id": "S21",
+   "size": "close-up",
+   "set": "living room",
+   "key": 20,
+   "note": "sis, scared"
+  },
+  {
+   "id": "S22",
+   "size": "two-shot",
+   "set": "living room",
+   "key": 50,
+   "note": "MC beside her, a closed mushaf on his lap, teaching her"
+  },
+  {
+   "id": "S23",
+   "size": "macro insert",
+   "set": "living room (mushaf)",
+   "key": 24,
+   "note": "the mushaf, green and gold, soft light; tag AL-KAHFI 1-10"
+  },
+  {
+   "id": "S24",
+   "size": "wide",
+   "set": "rooftop (dawn)",
+   "key": 40,
+   "note": "next morning the sun rises over the city"
+  },
+  {
+   "id": "S25",
+   "size": "wide, time-lapse",
+   "set": "rooftop",
+   "key": 40,
+   "note": "a clock spins through the day; the sun doesn't move"
+  },
+  {
+   "id": "S26",
+   "size": "extreme close-up",
+   "set": "rooftop",
+   "key": 30,
+   "note": "MC stares at the sun; BERSAMBUNG"
+  }
+ ],
+ "edit": [
+  {
+   "shot": "S1",
+   "at": "Jam"
+  },
+  {
+   "shot": "S2",
+   "at": "Ponselmu"
+  },
+  {
+   "shot": "S3",
+   "at": "Grup",
+   "look": "hoax"
+  },
+  {
+   "shot": "S4",
+   "at": "Sebarkan",
+   "look": "hoax"
+  },
+  {
+   "shot": "S5",
+   "at": "Satu",
+   "look": "hoax"
+  },
+  {
+   "shot": "S6",
+   "at": "Pagi",
+   "look": "hoax"
+  },
+  {
+   "shot": "S7",
+   "at": "Bagaimana"
+  },
+  {
+   "shot": "S8",
+   "at": "Kamu#2"
+  },
+  {
+   "shot": "S9",
+   "at": "cek"
+  },
+  {
+   "shot": "S10",
+   "at": "Dajjal"
+  },
+  {
+   "shot": "S11",
+   "at": "Satu"
+  },
+  {
+   "shot": "S12",
+   "at": "Satu"
+  },
+  {
+   "shot": "S13",
+   "at": "Satu"
+  },
+  {
+   "shot": "S14",
+   "at": "Itu"
+  },
+  {
+   "shot": "S15",
+   "at": "Tapi"
+  },
+  {
+   "shot": "S16",
+   "at": "Ngga"
+  },
+  {
+   "shot": "S17",
+   "at": "Malam"
+  },
+  {
+   "shot": "S18",
+   "at": "Ikut"
+  },
+  {
+   "shot": "S19",
+   "at": "Padahal"
+  },
+  {
+   "shot": "S20",
+   "at": "Adikmu"
+  },
+  {
+   "shot": "S21",
+   "at": "Kak"
+  },
+  {
+   "shot": "S22",
+   "at": "Kamu"
+  },
+  {
+   "shot": "S23",
+   "at": "Pelindung"
+  },
+  {
+   "shot": "S24",
+   "at": "Besok"
+  },
+  {
+   "shot": "S25",
+   "at": "Dan",
+   "look": "freeze"
+  },
+  {
+   "shot": "S26",
+   "at": "Bersambung"
+  }
+ ],
+ "tail": 1.8,
+ "fx": [
+  {
+   "at": "S4",
+   "kind": "flash",
+   "color": "#CFE6FF",
+   "o": 0.4
+  },
+  {
+   "at": "S7",
+   "kind": "flash",
+   "color": "#FFF3DC"
+  },
+  {
+   "at": "S16+22",
+   "kind": "shake",
+   "len": 8,
+   "amp": 8
+  },
+  {
+   "at": "S19+92",
+   "kind": "flash",
+   "color": "#FF5A3A",
+   "o": 0.6
+  },
+  {
+   "at": "S19+92",
+   "kind": "shake",
+   "len": 12,
+   "amp": 10
+  },
+  {
+   "at": "S26",
+   "kind": "flash",
+   "color": "#FFE7B3",
+   "o": 0.5
+  }
+ ],
+ "sound": {
+  "clips": {
+   "room_tone": [
+    "quiet indoor room tone in the evening, faint distant city hum, no voices",
+    12.5
+   ],
+   "roof_wind": [
+    "a gentle evening breeze on a city rooftop, distant traffic",
+    7.0
+   ],
+   "title_boom": [
+    "a cinematic whoosh rising into a deep boom impact",
+    1.6
+   ],
+   "drone_hit": [
+    "a dark ominous low drone hit, deep cinematic horror sting",
+    2.6
+   ],
+   "counter_tick": [
+    "a fast mechanical counter ticking up rapidly, digits rolling over, getting faster",
+    1.6
+   ],
+   "pop": [
+    "a cartoon speech bubble pop, short and bright",
+    0.5
+   ],
+   "glitch": [
+    "a short digital glitch, an electric buzz and crackle flickering like an unstable hologram",
+    1.5
+   ],
+   "sparkle": [
+    "a short bright magical sparkle twinkle, cartoon",
+    0.8
+   ],
+   "whoosh": [
+    "a fast clean whoosh passing from left to right, short",
+    0.8
+   ],
+   "freeze": [
+    "a deep cinematic time-freeze sound, a tape stop pitching down into a sudden hush with a soft shimmering ring",
+    1.4
+   ],
+   "phone_buzz": [
+    "a smartphone vibrating hard on a wooden nightstand, two short buzzes",
+    1.5
+   ],
+   "notif": [
+    "a soft smartphone message notification chime, short",
+    0.6
+   ],
+   "siren": [
+    "distant police and ambulance sirens over a panicking city, car horns, crowd murmur, no clear words",
+    3.0
+   ],
+   "page_turn": [
+    "a page of a thick book turning, paper rustle, close up",
+    0.8
+   ],
+   "bar_rise": [
+    "a short rising tonal swell, cinematic riser stretching upward",
+    1.5
+   ],
+   "stamp": [
+    "a heavy rubber stamp thumping down hard on paper on a desk",
+    0.6
+   ],
+   "tv_hum": [
+    "an old television's faint static hum in a quiet living room at night, muffled broadcast",
+    3.0
+   ],
+   "fire_whoosh": [
+    "a sudden roaring fire burst, flames whooshing up",
+    1.5
+   ],
+   "dawn_birds": [
+    "early morning city rooftop ambience, birds chirping, distant traffic, no voices",
+    4.0
+   ],
+   "music_dark": [
+    "dark mysterious suspense background music, low pulsing strings, soft piano notes and a deep drone, tense and slow, no vocals",
+    22.0
+   ]
+  },
+  "events": [
+   [
+    "S1",
+    "room_tone",
+    0.12,
+    "onset",
+    "S6"
+   ],
+   [
+    "S2+20",
+    "phone_buzz",
+    0.4
+   ],
+   [
+    "S3+36",
+    "notif",
+    0.22
+   ],
+   [
+    "S5+4",
+    "counter_tick",
+    0.1,
+    "onset",
+    "S6"
+   ],
+   [
+    "S6",
+    "siren",
+    0.1,
+    "onset",
+    "S7"
+   ],
+   [
+    "S7",
+    "title_boom",
+    0.35,
+    "peak"
+   ],
+   [
+    "S7",
+    "roof_wind",
+    0.12,
+    "onset",
+    "S8"
+   ],
+   [
+    "S8",
+    "room_tone",
+    0.1,
+    "onset",
+    "S10"
+   ],
+   [
+    "S9+4",
+    "page_turn",
+    0.3
+   ],
+   [
+    "S11+4",
+    "bar_rise",
+    0.12
+   ],
+   [
+    "S12+4",
+    "bar_rise",
+    0.12
+   ],
+   [
+    "S13+4",
+    "bar_rise",
+    0.12
+   ],
+   [
+    "S16+22",
+    "stamp",
+    0.45
+   ],
+   [
+    "S17",
+    "tv_hum",
+    0.1,
+    "onset",
+    "S20"
+   ],
+   [
+    "S19+88",
+    "glitch",
+    0.08
+   ],
+   [
+    "S19+92",
+    "fire_whoosh",
+    0.22
+   ],
+   [
+    "S20",
+    "room_tone",
+    0.1,
+    "onset",
+    "S24"
+   ],
+   [
+    "S23+4",
+    "sparkle",
+    0.12
+   ],
+   [
+    "S24",
+    "dawn_birds",
+    0.14,
+    "onset",
+    "S26"
+   ],
+   [
+    "S25+6",
+    "freeze",
+    0.08
+   ],
+   [
+    "S26",
+    "drone_hit",
+    0.12
+   ]
+  ],
+  "repeats": [
+   {
+    "at": "S10+5",
+    "clip": "pop",
+    "n": 12,
+    "every": 3,
+    "gain": [
+     0.04,
+     0.07
+    ],
+    "pitch": [
+     0.9,
+     1.3
+    ],
+    "note": "the day cells popping on"
+   }
+  ],
+  "music": {
+   "clip": "music_dark",
+   "until": "S14"
+  },
+  "levels": {
+   "sfx_lu": -3,
+   "music_lu": -11
+  }
+ }
+}

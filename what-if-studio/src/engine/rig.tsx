@@ -29,10 +29,17 @@ export type Look = {
   shoe: string;
   face: string;
   hair: string;
-  extra?: 'hood' | 'curls' | 'bunches' | 'bob' | 'suit';
+  extra?: 'hood' | 'curls' | 'bunches' | 'bob' | 'suit' | 'messy' | 'hijab';
+  sole?: string; // a contrasting sole on the shoe (trainers)
+  sock?: string; // a sock band showing above the shoe
 };
-export type CastName = 'pip' | 'pipHood' | 'pipInk' | 'mo' | 'sis' | 'mom' | 'suit';
+export type CastName = 'pip' | 'pipHood' | 'pipInk' | 'mo' | 'sis' | 'mom' | 'suit' | 'mc' | 'momHijab';
 export const LOOKS: Record<CastName, Look> = {
+  // MC: the user's own main character, the hero of every series episode: messy black hair, peach skin, an all-black
+  // hoodie (hood down, light drawstrings), black trousers, black trainers with white soles and white socks
+  mc: { skin: '#F4CBA8', skinShade: '#E2B08C', hand: '#F4CBA8', jacket: '#232229', jacketShade: '#1A191F', accent: '#D9D6D0', limb: '#26252C', line: '#0E0D12', shoe: '#1B1A20', face: '#1D2033', hair: '#2A2420', extra: 'messy', sole: '#F2EFE8', sock: '#F2EFE8' },
+  // a mum in a hijab (soft sage), for stories set in an Indonesian Muslim home
+  momHijab: { skin: '#F2C8A6', skinShade: '#DDB08E', hand: '#F2C8A6', jacket: '#8A5A6A', jacketShade: '#704858', accent: '#E9C46A', limb: '#3A3446', line: '#14121C', shoe: '#5A4A6A', face: '#1D2033', hair: '#7E9A86', extra: 'hijab' },
   // A: Pip as built
   pip: { skin: C.skin, skinShade: C.skinShade, hand: C.skin, jacket: C.jacket, jacketShade: C.jacketShade, accent: C.jacketShade, limb: C.limb, line: C.ink, shoe: C.shoe, face: C.ink, hair: C.ink },
   // B: Pip in a dark hoodie with mustard drawstrings: the body goes dark and catches the rim light, the head stays the brightest thing
@@ -323,7 +330,11 @@ export const Hero: React.FC<{ pose: Pose; shadow?: number; rimId?: string; look?
     );
   };
   const shoe = (o: { root: P; mid: P; end: P }) => (
-    <ellipse cx={o.end.x + pose.facing * 9} cy={o.end.y + 4} rx={22} ry={11} fill={L.shoe} stroke={L.line} strokeWidth={4} />
+    <g>
+      {L.sock ? <rect x={o.end.x - 8} y={o.end.y - 10} width={16} height={10} rx={3} fill={L.sock} stroke={L.line} strokeWidth={3} /> : null}
+      <ellipse cx={o.end.x + pose.facing * 9} cy={o.end.y + 4} rx={22} ry={11} fill={L.shoe} stroke={L.line} strokeWidth={4} />
+      {L.sole ? <path d={`M ${o.end.x + pose.facing * 9 - 22} ${o.end.y + 6} Q ${o.end.x + pose.facing * 9} ${o.end.y + 18} ${o.end.x + pose.facing * 9 + 22} ${o.end.y + 6}`} stroke={L.sole} strokeWidth={5} fill="none" strokeLinecap="round" /> : null}
+    </g>
   );
   // a mitten along the forearm: the palm, the thumb toward the body, two knuckle marks; or a pointing fist
   const hand = (o: { mid: P; end: P }, side: 1 | -1, kind: HandKind) => {
@@ -368,7 +379,7 @@ export const Hero: React.FC<{ pose: Pose; shadow?: number; rimId?: string; look?
     <g transform={`rotate(${pose.tilt}) rotate(${pose.headTilt} 0 ${HEAD.y + 40})`}>
       <circle cx={HEAD.x} cy={HEAD.y} r={HEAD.r} fill={L.skin} stroke={L.line} strokeWidth={4} />
       <path d={`M ${HEAD.x + 14} ${HEAD.y + 58} A ${HEAD.r} ${HEAD.r} 0 0 0 ${HEAD.x + 60} ${HEAD.y + 14} A 70 70 0 0 1 ${HEAD.x + 14} ${HEAD.y + 58} Z`} fill={L.skinShade} />
-      {L.extra === 'bunches' || L.extra === 'bob' || L.extra === 'suit' ? null : (
+      {L.extra === 'bunches' || L.extra === 'bob' || L.extra === 'suit' || L.extra === 'messy' || L.extra === 'hijab' ? null : (
         <path transform={`translate(${-pose.yaw * 16} 0)`} d={`M -6 ${HEAD.y - 60} q 10 -26 30 -18 q -16 2 -14 16 q -8 -10 -16 2 Z`} fill={L.hair} />
       )}
       {L.extra === 'bunches' ? (
@@ -399,6 +410,31 @@ export const Hero: React.FC<{ pose: Pose; shadow?: number; rimId?: string; look?
         <path transform={`translate(${-pose.yaw * 14} 0)`} d={`M -60 ${HEAD.y - 18} Q -64 ${HEAD.y - 70} 4 ${HEAD.y - 68} Q 64 ${HEAD.y - 64} 60 ${HEAD.y - 18} Q 52 ${HEAD.y - 44} 18 ${HEAD.y - 46} L 12 ${HEAD.y - 54} L 6 ${HEAD.y - 46} Q -44 ${HEAD.y - 46} -60 ${HEAD.y - 18} Z`} fill={L.hair} />
       ) : null}
       <Face expr={pose.expr} blink={pose.blink} look={pose.look} glasses={pose.glasses} yaw={pose.yaw} ink={L.face} glint={pose.glint} glintColor={pose.glintColor} />
+      {L.extra === 'messy' ? (
+        // messy black hair: a spiky crown and a ragged fringe over the forehead, shifted with the turn
+        <path
+          transform={`translate(${HEAD.x - pose.yaw * 14} ${HEAD.y})`}
+          d="M -64 -2 Q -76 -40 -60 -62 Q -58 -88 -30 -82 Q -14 -104 10 -88 Q 32 -100 46 -78 Q 74 -74 64 -42 Q 70 -20 62 -2 Q 58 -26 46 -30 Q 42 -44 26 -38 Q 18 -52 2 -40 Q -10 -52 -22 -38 Q -36 -48 -44 -32 Q -58 -34 -58 -12 Z M -2 -88 Q 6 -104 22 -100 Q 10 -98 6 -88 Z"
+          fill={L.hair}
+          stroke={L.line}
+          strokeWidth={4}
+          strokeLinejoin="round"
+        />
+      ) : null}
+      {L.extra === 'hijab' ? (
+        // a hijab: a soft cloth round the face, over the head and down onto the shoulders, the face open
+        <g transform={`translate(${HEAD.x - pose.yaw * 8} ${HEAD.y})`}>
+          <path
+            fillRule="evenodd"
+            d="M -80 70 Q -92 -84 0 -84 Q 92 -84 80 70 Q 40 92 0 92 Q -40 92 -80 70 Z M -48 -10 Q -50 -58 0 -58 Q 50 -58 48 -10 Q 46 44 0 52 Q -46 44 -48 -10 Z"
+            fill={L.hair}
+            stroke={L.line}
+            strokeWidth={4}
+            strokeLinejoin="round"
+          />
+          <path d="M -48 -12 Q -50 -58 0 -58 Q 50 -58 48 -12" stroke="#FFFFFF" strokeWidth={3} opacity={0.25} fill="none" />
+        </g>
+      ) : null}
       {L.extra === 'curls'
         ? [-150, -125, -100, -78, -55, -30].map((deg, k) => {
             const a = (deg * Math.PI) / 180;
@@ -427,6 +463,21 @@ export const Hero: React.FC<{ pose: Pose; shadow?: number; rimId?: string; look?
                     <path d={`M -12 -108 Q ${-14 + sw * 0.3} -88 ${-16 + sw} -66 M 12 -108 Q ${14 + sw * 0.3} -88 ${16 + sw} -66`} stroke={L.accent} strokeWidth={5} strokeLinecap="round" fill="none" />
                     <circle cx={-16 + sw} cy={-64} r={5} fill={L.accent} />
                     <circle cx={16 + sw} cy={-64} r={5} fill={L.accent} />
+                  </g>
+                );
+              })()}
+            </g>
+          ) : null}
+          {L.extra === 'messy' ? (
+            <g transform={`rotate(${pose.tilt})`}>
+              <path d="M -50 -110 Q -54 -132 0 -134 Q 54 -132 50 -110 Q 26 -100 0 -100 Q -26 -100 -50 -110 Z" fill={L.jacket} stroke={L.line} strokeWidth={4} />
+              {(() => {
+                const sw = pose.sway * 0.7 - pose.tilt * 0.6;
+                return (
+                  <g>
+                    <path d={`M -10 -104 Q ${-12 + sw * 0.3} -86 ${-13 + sw} -68 M 10 -104 Q ${12 + sw * 0.3} -86 ${13 + sw} -68`} stroke={L.accent} strokeWidth={4} strokeLinecap="round" fill="none" />
+                    <circle cx={-13 + sw} cy={-66} r={4} fill={L.accent} />
+                    <circle cx={13 + sw} cy={-66} r={4} fill={L.accent} />
                   </g>
                 );
               })()}
