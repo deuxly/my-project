@@ -1,6 +1,7 @@
 import React from 'react';
 import { defineEpisode, Timeline, LookDef, HudChip, Dial } from '../../engine';
 import timeline from './timeline.json';
+import words from './words.json';
 import { S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, FRAME } from './shots';
 
 // The "power" here is the sun standing still. FREEZE: the picture holds warm and a touch harder, a chip says the
@@ -21,4 +22,6 @@ export const sunStops = defineEpisode('SunStops', {
   shots: { S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14 },
   looks: { freeze: freezeLook },
   frame: FRAME,
+  words, // burned-in subtitles, synced to the voice
+  noCaptions: ['S9'], // the title card already says it
 });

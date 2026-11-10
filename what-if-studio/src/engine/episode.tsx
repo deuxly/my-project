@@ -4,6 +4,7 @@ import { clamp, lerp } from './anim';
 import { KitDefs } from './kit';
 import { SetDefs } from './light';
 import { STUDIO } from '../studio.config';
+import { Captions, phrases, Word } from './captions';
 
 // The episode engine. An episode is a set of shots plus a timeline (written by scripts/plan.py from the voice's word
 // timings). Each shot is a pure function of its own clock t, so the edit can cut back to a shot, hold it, or play it
@@ -127,9 +128,20 @@ export const ShotFrame: React.FC<{ children: React.ReactNode; viewBox?: string }
   </svg>
 );
 
-export type EpisodeProps = { timeline: Timeline; shots: ShotMap; looks?: Record<string, LookDef>; grain?: boolean; vignette?: boolean; bg?: string; frame?: FrameMap };
+export type EpisodeProps = { timeline: Timeline; shots: ShotMap; looks?: Record<string, LookDef>; grain?: boolean; vignette?: boolean; bg?: string; frame?: FrameMap; words?: Word[]; noCaptions?: string[] };
 
-export const Episode: React.FC<EpisodeProps> = ({ timeline: tl, shots, looks = {}, grain = true, vignette = true, bg = '#0E0C1E', frame }) => {
+// subtitles: the phrase list is built once per words array
+const capCache = new WeakMap<Word[], ReturnType<typeof phrases>>();
+const capList = (w: Word[]) => {
+  let v = capCache.get(w);
+  if (!v) {
+    v = phrases(w);
+    capCache.set(w, v);
+  }
+  return v;
+};
+
+export const Episode: React.FC<EpisodeProps> = ({ timeline: tl, shots, looks = {}, grain = true, vignette = true, bg = '#0E0C1E', frame, words, noCaptions = [] }) => {
   const f = useCurrentFrame();
   const seg = segAt(tl, f);
   const Shot = shots[seg.shot];
@@ -151,6 +163,7 @@ export const Episode: React.FC<EpisodeProps> = ({ timeline: tl, shots, looks = {
           <def.Overlay f={f} lv={lv} p={clamp((f - run.a) / (run.b - run.a))} n={run.n} />
         </svg>
       ) : null}
+      {words && !noCaptions.includes(seg.shot) ? <Captions f={f} fps={tl.fps} list={capList(words)} /> : null}
       {flash ? <AbsoluteFill style={{ backgroundColor: flash.color, opacity: flash.o }} /> : null}
       {A.voice ? <Audio src={staticFile(A.voice)} volume={A.voiceVol ?? 1} /> : null}
       {A.sfx ? <Audio src={staticFile(A.sfx)} volume={A.sfxVol ?? 1} /> : null}

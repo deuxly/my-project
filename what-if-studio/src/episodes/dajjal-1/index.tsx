@@ -1,6 +1,7 @@
 import React from 'react';
 import { defineEpisode, Timeline, LookDef, HudChip, Dial, FONT } from '../../engine';
 import timeline from './timeline.json';
+import words from './words.json';
 import * as SH from './shots';
 
 // HOAX: while the forwarded message spreads, the picture goes cold and jittery, a DITERUSKAN chip blinks and a share
@@ -37,4 +38,6 @@ export const dajjal1 = defineEpisode('DajjalEp1', {
   shots,
   looks: { hoax: hoaxLook, freeze: freezeLook },
   frame: FRAME,
+  words, // burned-in subtitles, synced to the voice
+  noCaptions: ['S7'], // the title card already says it
 });
