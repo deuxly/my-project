@@ -14,3 +14,6 @@
   `src/episodes/dajjal-1/` (episode berikutnya: `dajjal-2`, dst.). Aturan hormat: nabi tidak pernah digambar, Dajjal tidak
   pernah diperlihatkan langsung, mushaf digambar tertutup tanpa tulisan Arab buatan, setiap hadis disebut nomornya dan
   dicek di field `science`.
+- **Subtitle selalu wajib** di setiap video: subtitle tertanam, sinkron per kata dengan narasi (`engine/captions.tsx`).
+  Di `index.tsx` setiap episode, oper `words` (dari `words.json`) ke `defineEpisode`, dan isi `noCaptions` dengan shot
+  kartu judul. Cek beberapa frame (`stills.mjs <slug> --frames ...`) sebelum master.
